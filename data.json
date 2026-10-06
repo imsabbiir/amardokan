@@ -1,0 +1,1909 @@
+{
+  "categories":[
+    {
+      
+      "id": "cat_men",
+      "name": "Men Outfit",
+      "slug": "men",
+      "description": "clothing for men",
+      "image": "/images/categories/men.jpg",
+      "isActive": true
+    },
+    {
+      "id": "cat_women",
+      "name": "Women Outfit",
+      "slug": "women",
+      "description": "clothing for women",
+      "image": "/images/categories/men.jpg",
+      "isActive": true
+    },
+    {
+      "id": "cat_kids",
+      "name": "Kids Outfit",
+      "slug": "kids",
+      "description": "clothing for kids",
+      "image": "/images/categories/men.jpg",
+      "isActive": true
+    }
+    
+  ],
+  "subcategories": [
+    {
+      "id": "sub_hoodies",
+      "name": "Hoodies",
+      "slug": "hoodies",
+      "isActive": true
+    },
+    {
+      "id": "sub_jackets",
+      "name": "Jackets",
+      "slug": "jackets",
+      "isActive": true
+    },
+    {
+      "id": "sub_sweaters",
+      "name": "Sweaters",
+      "slug": "sweaters",
+      "isActive": true
+    },
+    {
+      "id": "sub_sweatshirts",
+      "name": "Sweatshirts",
+      "slug": "sweatshirts",
+      "isActive": true
+    },
+    {
+      "id": "sub_caps",
+      "name": "Winter Caps",
+      "slug": "winter-caps",
+      "isActive": true
+    }
+
+  ],
+  "products": [
+    {
+      "id": "prod_001",
+      "name": "Mens Heavyweight Half Zip Hoodie",
+      "slug": "mens-heavyweight-half-zip-hoodie",
+      "description": "Mens Half Zip Hoodie Vintage Heavyweight Pullover Stylish Streetwear Jacket Trendy Casual Outfit Warm Layered Clothing",
+      "category": ["cat_men"],
+      "subcategory": "sub_hoodies",
+      "type": "Hoodie",
+      "brand": "No Brand",
+      "sku": "HOD-HHZ-001",
+      "thumbnail": "https://i.ibb.co.com/GQrPdWN9/mens-half-zip-hoodie-black.webp",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#000000",
+          "image": "https://i.ibb.co.com/GQrPdWN9/mens-half-zip-hoodie-black.webp"
+        },
+        {
+          "name": "Charcoal Gray",
+          "hex": "#4e4d52",
+          "image": "https://i.ibb.co.com/5WN2MZ9W/mens-half-zip-hoodie-gray.webp"
+        },
+        {
+          "name": "Dark Olive",
+          "hex": "#4c4a38",
+          "image": "https://i.ibb.co.com/KpQPx7qZ/mens-half-zip-hoodie-olive.webp"
+        },
+        {
+          "name": "Brownish Red",
+          "hex": "#74433f",
+          "image": "https://i.ibb.co.com/wFJF4fNc/mens-half-zip-hoodie-red.webp"
+        }
+      ],
+      "sizes": ["M", "L", "XL", "XXL"],
+      "pricing": [
+        { "minQuantity": 5, "maxQuantity": 10, "unitPrice": 450 },
+        { "minQuantity": 11, "maxQuantity": 30, "unitPrice": 420 },
+        { "minQuantity": 31, "maxQuantity": 100, "unitPrice": 400 },
+        { "minQuantity": 101, "maxQuantity": null, "unitPrice": 350 }
+      ],
+      "variants": [
+        {
+          "sku": "HOD-HHZ-001-BLK-M",
+          "size": "M",
+          "color": "Black",
+          "stock": 45
+        },
+        {
+          "sku": "HOD-FLC-001-CCG-M",
+          "size": "M",
+          "color": "Charcoal Grey",
+          "stock": 30
+        },
+        {
+          "sku": "HOD-FLC-001-DOL-M",
+          "size": "M",
+          "color": "Dark Olive",
+          "stock": 15
+        },
+        {
+          "sku": "HOD-FLC-001-BNR-M",
+          "size": "M",
+          "color": "Brownish Red",
+          "stock": 20
+        },
+        {
+          "sku": "HOD-HHZ-001-BLK-L",
+          "size": "L",
+          "color": "Black",
+          "stock": 45
+        },
+        {
+          "sku": "HOD-FLC-001-CCG-L",
+          "size": "L",
+          "color": "Charcoal Grey",
+          "stock": 30
+        },
+        {
+          "sku": "HOD-FLC-001-DOL-L",
+          "size": "L",
+          "color": "Dark Olive",
+          "stock": 15
+        },
+        {
+          "sku": "HOD-FLC-001-BNR-L",
+          "size": "L",
+          "color": "Brownish Red",
+          "stock": 20
+        },
+        {
+          "sku": "HOD-HHZ-001-BLK-XL",
+          "size": "XL",
+          "color": "Black",
+          "stock": 45
+        },
+        {
+          "sku": "HOD-FLC-001-CCG-XL",
+          "size": "XL",
+          "color": "Charcoal Grey",
+          "stock": 30
+        },
+        {
+          "sku": "HOD-FLC-001-DOL-XL",
+          "size": "XL",
+          "color": "Dark Olive",
+          "stock": 15
+        },
+        {
+          "sku": "HOD-FLC-001-BNR-XL",
+          "size": "XL",
+          "color": "Brownish Red",
+          "stock": 20
+        },
+        {
+          "sku": "HOD-HHZ-001-BLK-XXL",
+          "size": "XXL",
+          "color": "Black",
+          "stock": 45
+        },
+        {
+          "sku": "HOD-FLC-001-CCG-XXL",
+          "size": "XXL",
+          "color": "Charcoal Grey",
+          "stock": 30
+        },
+        {
+          "sku": "HOD-FLC-001-DOL-XXL",
+          "size": "XXL",
+          "color": "Dark Olive",
+          "stock": 15
+        },
+        {
+          "sku": "HOD-FLC-001-BNR-XXL",
+          "size": "XXL",
+          "color": "Brownish Red",
+          "stock": 20
+        }
+      ],
+      "material": "80% Cotton, 20% Polyester",
+      "weight": 0.65,
+      "unit": "piece",
+      "countryOfOrigin": "Bangladesh",
+      "rating": 4.8,
+      "reviewCount": 94,
+      "isActive": true
+    },
+    {
+      "id": "prod_002",
+      "name": "Men's Smiling Face Funny Fashion Couple Hoodie",
+      "slug": "men's-smiling-face-funny-fashion-couple-hoodie",
+      "description": "Men's Smiling Face Funny Fashion Couple Hooded Sweater American Heavyweight Loose Thickened Cashmere Boys' Hoodie Pullover Top",
+      "category": ["cat_men", "cat_women"],
+      "subcategory": "sub_hoodies",
+      "type": "Hoodie",
+      "brand": "No Brand",
+      "sku": "CPE-HDE-002",
+      "thumbnail": "https://i.ibb.co.com/k2GqdtpD/cuople-funny-face-hoodie-black.webp",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#222222",
+          "image": "https://i.ibb.co.com/k2GqdtpD/cuople-funny-face-hoodie-black.webp"
+        },
+        {
+          "name": "White",
+          "hex": "#F5F5DC",
+          "image": "https://i.ibb.co.com/SDC3tQbs/cuople-funny-face-hoodie-ass.webp"
+        },
+        {
+          "name": "Warm Beige",
+          "hex": "#800020",
+          "image": "https://i.ibb.co.com/RkFG6cnK/cuople-funny-face-hoodie-cream.webp"
+        },
+        {
+          "name": "Coffee Brown",
+          "hex": "#4e3d35",
+          "image": "https://i.ibb.co.com/xqfd145n/cuople-funny-face-hoodie-coffee.webp"
+        }
+      ],
+      "sizes": ["M", "L", "XL"],
+      "pricing": [
+        { "minQuantity": 5, "maxQuantity": 10, "unitPrice": 520 },
+        { "minQuantity": 11, "maxQuantity": 50, "unitPrice": 480 },
+        { "minQuantity": 51, "maxQuantity": null, "unitPrice": 430 }
+      ],
+      "variants": [
+        {
+          "sku": "CPE-HDE-002-BEI-M",
+          "size": "M",
+          "color": "Warm Beige",
+          "stock": 50
+        },
+        {
+          "sku": "CPE-HDE-002-BEI-L",
+          "size": "L",
+          "color": "Warm Beige",
+          "stock": 20
+        },
+        {
+          "sku": "CPE-HDE-002-BEI-XL",
+          "size": "XL",
+          "color": "Warm Beige",
+          "stock": 5
+        },
+        {
+          "sku": "CPE-HDE-002-BRO-M",
+          "size": "M",
+          "color": "Coffee Brown",
+          "stock": 50
+        },
+        {
+          "sku": "CPE-HDE-002-BRO-L",
+          "size": "L",
+          "color": "Coffee Brown",
+          "stock": 20
+        },
+        {
+          "sku": "CPE-HDE-002-BRO-XL",
+          "size": "XL",
+          "color": "Coffee Brown",
+          "stock": 5
+        },
+        {
+          "sku": "CPE-HDE-002-WHI-M",
+          "size": "M",
+          "color": "White",
+          "stock": 20
+        },
+        {
+          "sku": "CPE-HDE-002-WHI-L",
+          "size": "L",
+          "color": "White",
+          "stock": 10
+        },
+        {
+          "sku": "CPE-HDE-002-WHI-XL",
+          "size": "XL",
+          "color": "White",
+          "stock": 5
+        },
+        {
+          "sku": "CPE-HDE-002-BLA-M",
+          "size": "M",
+          "color": "Black",
+          "stock": 10
+        },
+        {
+          "sku": "CPE-HDE-002-BLA-L",
+          "size": "L",
+          "color": "Black",
+          "stock": 5
+        },
+        {
+          "sku": "CPE-HDE-002-BLA-XL",
+          "size": "XL",
+          "color": "Black",
+          "stock": 0
+        }
+      ],
+      "material": "100% Cartoon",
+      "weight": 0.55,
+      "unit": "piece",
+      "countryOfOrigin": "Bangladesh",
+      "rating": 4.9,
+      "reviewCount": 112,
+      "isActive": true
+    },
+    {
+      "id": "prod_003",
+      "name": "Premium Quality Stylish Cotton Hoodie For Women",
+      "slug": "premium-quality-stylish-cotton-hoodie-for-women",
+      "description": "Stylish Ladies hoodie | Export Quality HoodieMaterial: Cotton | Gender: Women's | Stylish Design | High Quality Cotton Fabric | Fabric:  Cotton | Fabrication: 250+ GSM | Size: M, L, XL Measurement (In Inch) | M- (Length 27, Chest 36) | L- (Length 28, Chest 38) |XL- (Length 29, Chest 40)",
+      "category": ["cat_women"],
+      "subcategory": "sub_hoodies",
+      "type": "Hoodie",
+      "brand": "No Brand",
+      "sku": "PQC-HOD-003",
+
+      "thumbnail": "https://i.ibb.co.com/35F41H2c/women-hoodie-white-pink.webp",
+      "colors": [
+        {
+          "name": "Pink",
+          "hex": "##fbbfb3",
+          "image": "https://i.ibb.co.com/35F41H2c/women-hoodie-white-pink.webp"
+        },
+        {
+          "name": "Nevy Blue",
+          "hex": "##292639",
+          "image": "https://i.ibb.co.com/vCcBjsXX/women-hoodie-nevy-blue-white.webp"
+        }
+      ],
+      "sizes": ["M", "L"],
+      "pricing": [
+        { "minQuantity": 5, "maxQuantity": 10, "unitPrice": 600 },
+        { "minQuantity": 11, "maxQuantity": 30, "unitPrice": 550 },
+        { "minQuantity": 31, "maxQuantity": 100, "unitPrice": 500 },
+        { "minQuantity": 101, "maxQuantity": null, "unitPrice": 450 }
+      ],
+      "variants": [
+        {
+          "sku": "PQC-HOD-003-PIN-M",
+          "size": "M",
+          "color": "Pink",
+          "stock": 25
+        },
+        {
+          "sku": "PQC-HOD-003-PIN-L",
+          "size": "L",
+          "color": "Pink",
+          "stock": 18
+        },
+        {
+          "sku": "PQC-HOD-003-NVB-M",
+          "size": "M",
+          "color": "Navy Blue",
+          "stock": 30
+        },
+        {
+          "sku": "JAC-PUF-003-NVB-L",
+          "size": "L",
+          "color": "Navy Blue",
+          "stock": 12
+        }
+      ],
+      "material": "100% Nylon Shell, Goose Down Filling",
+      "weight": 0.85,
+      "unit": "piece",
+      "countryOfOrigin": "Bangladesh",
+      "rating": 4.9,
+      "reviewCount": 156,
+      "isActive": true
+    },
+    {
+      "id": "prod_004",
+      "name": "Premium Quality Printed Cotton Hoodie For Men and Women",
+      "slug": "premium-quality-printed-cotton-hoodie-for-men-and-women",
+      "description": "FWelcome to Z-Choice, where fabric meets perfection. Our brand is dedicated to providing you with premium-quality fabrics that blend style, comfort, and durability. At Z-Choice, we understand that the essence of great design starts with the right fabric. That's why we meticulously source and craft materials that inspire creativity and elevate everyday wear.",
+      "category": ["cat_men", "cat_women"],
+      "subcategory": "sub_hoodies",
+      "type": "Hoodie",
+      "brand": "UrbanWear",
+      "sku": "PQP-HOD-004",
+      "thumbnail": "https://i.ibb.co.com/xKGg8J9W/printed-cotton-hoodie-black.webp",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#C19A6B",
+          "image": "https://i.ibb.co.com/xKGg8J9W/printed-cotton-hoodie-black.webp"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000",
+          "image": "https://i.ibb.co.com/s9VWP9z7/printed-cotton-hoodie-white.webp"
+        }
+      ],
+      "sizes": ["L", "XL", "XXL"],
+      "pricing": [
+        { "minQuantity": 1, "maxQuantity": 20, "unitPrice": 520 },
+        { "minQuantity": 21, "maxQuantity": 50, "unitPrice": 480 },
+        { "minQuantity": 51, "maxQuantity": null, "unitPrice": 440 }
+      ],
+      "variants": [
+        {
+          "sku": "PQP-HOD-004-WHI-L",
+          "size": "L",
+          "color": "White",
+          "stock": 14
+        },
+        {
+          "sku": "PQP-HOD-004-BLK-L",
+          "size": "L",
+          "color": "Black",
+          "stock": 22
+        },
+        {
+          "sku": "PQP-HOD-004-WHI-XL",
+          "size": "XL",
+          "color": "White",
+          "stock": 14
+        },
+        {
+          "sku": "PQP-HOD-004-BLK-XL",
+          "size": "XL",
+          "color": "Black",
+          "stock": 22
+        },
+        {
+          "sku": "PQP-HOD-004-WHI-XXL",
+          "size": "XXL",
+          "color": "White",
+          "stock": 14
+        },
+        {
+          "sku": "PQP-HOD-004-BLK-XXL",
+          "size": "XXL",
+          "color": "Black",
+          "stock": 22
+        }
+      ],
+      "material": "70% Wool, 30% Polyester",
+      "weight": 1.1,
+      "unit": "piece",
+      "countryOfOrigin": "Bangladesh",
+      "rating": 4.7,
+      "reviewCount": 82,
+      "isActive": true
+    },
+    {
+      "id": "prod_005",
+      "name": "Animal Game Casual Hoodie Zipper Jacket for Men Heavyweight Fleece Sweatshirt",
+      "slug": "animal-game-casual-hoodie-zipper-jacket-for-man-heavyweight-fleece-sweatshirt",
+      "description": "Animal Game Casual Hoodies for Men Heavyweight Fleece Sweatshirt Thick Sherpa Lined Hooded Zipper Jacket Thick Streetwear Coats",
+      "category": ["cat_men"],
+      "subcategory": "sub_jackets",
+      "type": "Fleece",
+      "brand": "UrbanWear",
+      "sku": "JAC-FLC-005",
+      "thumbnail": "https://i.ibb.co.com/RTC9z6Rv/mens-heavyweight-fleece-hoodie-black.webp",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#000000",
+          "image": "https://i.ibb.co.com/RTC9z6Rv/mens-heavyweight-fleece-hoodie-black.webp"
+        },
+        {
+          "name": "Nevy Blue",
+          "hex": "#1f2537",
+          "image": "https://i.ibb.co.com/fdkwwVb6/mens-heavyweight-fleece-hoodie-blue.webp"
+        },
+        {
+          "name": "Muted Olive",
+          "hex": "#626242",
+          "image": "https://i.ibb.co.com/NgbwVrq5/mens-heavyweight-fleece-hoodie-olive.webp"
+        },
+        {
+          "name": "Deep Burgundy",
+          "hex": "#751d1f",
+          "image": "https://i.ibb.co.com/qMryLST0/mens-heavyweight-fleece-hoodie-red.webp"
+        },
+        {
+          "name": "Caramel Brown",
+          "hex": "#9f6930",
+          "image": "https://i.ibb.co.com/jPH57pZb/mens-heavyweight-fleece-hoodie-orange.webp"
+        }
+      ],
+      "sizes": ["M", "L", "XL"],
+      "pricing": [
+        { "minQuantity": 1, "maxQuantity": 20, "unitPrice": 180 },
+        { "minQuantity": 21, "maxQuantity": 50, "unitPrice": 160 },
+        { "minQuantity": 51, "maxQuantity": null, "unitPrice": 145 }
+      ],
+      "variants": [
+        {
+          "sku": "HOODIE-MN-001-BLK-M",
+          "size": "M",
+          "color": "Black",
+          "stock": 20
+        },
+        {
+          "sku": "HOODIE-MN-001-NVY-M",
+          "size": "M",
+          "color": "Nevy Blue",
+          "stock": 20
+        },
+        {
+          "sku": "HOODIE-MN-001-OLV-M",
+          "size": "M",
+          "color": "Muted Olive",
+          "stock": 20
+        },
+        {
+          "sku": "HOODIE-MN-001-BUR-M",
+          "size": "M",
+          "color": "Deep Burgundy",
+          "stock": 20
+        },
+        {
+          "sku": "HOODIE-MN-001-BRN-M",
+          "size": "M",
+          "color": "Caramel Brown",
+          "stock": 20
+        },
+        {
+          "sku": "HOODIE-MN-001-BLK-L",
+          "size": "L",
+          "color": "Black",
+          "stock": 25
+        },
+        {
+          "sku": "HOODIE-MN-001-NVY-L",
+          "size": "L",
+          "color": "Nevy Blue",
+          "stock": 25
+        },
+        {
+          "sku": "HOODIE-MN-001-OLV-L",
+          "size": "L",
+          "color": "Muted Olive",
+          "stock": 25
+        },
+        {
+          "sku": "HOODIE-MN-001-BUR-L",
+          "size": "L",
+          "color": "Deep Burgundy",
+          "stock": 25
+        },
+        {
+          "sku": "HOODIE-MN-001-BRN-L",
+          "size": "L",
+          "color": "Caramel Brown",
+          "stock": 25
+        },
+        {
+          "sku": "HOODIE-MN-001-BLK-XL",
+          "size": "XL",
+          "color": "Black",
+          "stock": 15
+        },
+        {
+          "sku": "HOODIE-MN-001-NVY-XL",
+          "size": "XL",
+          "color": "Nevy Blue",
+          "stock": 15
+        },
+        {
+          "sku": "HOODIE-MN-001-OLV-XL",
+          "size": "XL",
+          "color": "Muted Olive",
+          "stock": 15
+        },
+        {
+          "sku": "HOODIE-MN-001-BUR-XL",
+          "size": "XL",
+          "color": "Deep Burgundy",
+          "stock": 15
+        },
+        {
+          "sku": "HOODIE-MN-001-BRN-XL",
+          "size": "XL",
+          "color": "Caramel Brown",
+          "stock": 15
+        }
+      ],
+      "material": "100% Microfleece Polyester",
+      "weight": 0.45,
+      "unit": "piece",
+      "countryOfOrigin": "Bangladesh",
+      "rating": 4.6,
+      "reviewCount": 67,
+      "isActive": true
+    },
+    {
+      "id": "prod_006",
+      "name": "Men's Waterproof Windbreaker Biker Jacket",
+      "slug": "mens-waterproof-windbreaker-biker-jacket",
+      "description": "Men's Heavy Duty Waterproof Windbreaker Biker Jacket with Thermal Lining and Zip Pockets",
+      "category": ["cat_men"],
+      "subcategory": "sub_jackets",
+      "type": "Jacket",
+      "brand": "No Brand",
+      "sku": "JAC-MN-005",
+      "thumbnail": "https://i.ibb.co.com/39r6vhwm/mens-waterproof-windbreaker-biker-jacket-black.webp",
+      "colors": [
+        {
+          "name": "Charcoal Slate",
+          "hex": "#48474e",
+          "image": "https://i.ibb.co.com/39r6vhwm/mens-waterproof-windbreaker-biker-jacket-black.webp"
+        },
+        {
+          "name": "Slate Blue",
+          "hex": "#3d425c",
+          "image": "https://i.ibb.co.com/gMDVmdfy/mens-waterproof-windbreaker-biker-jacket-blue.webp"
+        },
+        {
+          "name": "Olive",
+          "hex": "#717970",
+          "image": "https://i.ibb.co.com/mrWLKcPC/mens-waterproof-windbreaker-biker-jacket-olive.webp"
+        },
+        {
+          "name": "Cream",
+          "hex": "#979080",
+          "image": "https://i.ibb.co.com/8ny9ynBZ/mens-waterproof-windbreaker-biker-jacket-cream.webp"
+        }
+      ],
+      "sizes": ["M", "L", "XL", "XXL"],
+      "pricing": [
+        { "minQuantity": 5, "maxQuantity": 10, "unitPrice": 1200 },
+        { "minQuantity": 11, "maxQuantity": 30, "unitPrice": 1100 },
+        { "minQuantity": 31, "maxQuantity": null, "unitPrice": 1000 }
+      ],
+      "variants": [
+        {
+          "sku": "JAC-MN-005-CHS-M",
+          "size": "M",
+          "color": "Charcoal Slate",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-MN-005-SBL-M",
+          "size": "M",
+          "color": "Slate Blue",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-MN-005-OLV-M",
+          "size": "M",
+          "color": "Olive",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-MN-005-CRM-M",
+          "size": "M",
+          "color": "Cream",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-MN-005-CHS-L",
+          "size": "L",
+          "color": "Charcoal Slate",
+          "stock": 25
+        },
+        {
+          "sku": "JAC-MN-005-SBL-L",
+          "size": "L",
+          "color": "Slate Blue",
+          "stock": 25
+        },
+        {
+          "sku": "JAC-MN-005-OLV-L",
+          "size": "L",
+          "color": "Olive",
+          "stock": 25
+        },
+        {
+          "sku": "JAC-MN-005-CRM-L",
+          "size": "L",
+          "color": "Cream",
+          "stock": 25
+        },
+        {
+          "sku": "JAC-MN-005-CHS-XL",
+          "size": "XL",
+          "color": "Charcoal Slate",
+          "stock": 15
+        },
+        {
+          "sku": "JAC-MN-005-SBL-XL",
+          "size": "XL",
+          "color": "Slate Blue",
+          "stock": 15
+        },
+        {
+          "sku": "JAC-MN-005-OLV-XL",
+          "size": "XL",
+          "color": "Olive",
+          "stock": 15
+        },
+        {
+          "sku": "JAC-MN-005-CRM-XL",
+          "size": "XL",
+          "color": "Cream",
+          "stock": 15
+        },
+        {
+          "sku": "JAC-MN-005-CHS-XXL",
+          "size": "XXL",
+          "color": "Charcoal Slate",
+          "stock": 10
+        },
+        {
+          "sku": "JAC-MN-005-SBL-XXL",
+          "size": "XXL",
+          "color": "Slate Blue",
+          "stock": 10
+        },
+        {
+          "sku": "JAC-MN-005-OLV-XXL",
+          "size": "XXL",
+          "color": "Olive",
+          "stock": 10
+        },
+        {
+          "sku": "JAC-MN-005-CRM-XXL",
+          "size": "XXL",
+          "color": "Cream",
+          "stock": 10
+        }
+      ],
+      "material": "100% Polyester Shell, Mesh Lining",
+      "weight": 0.75,
+      "unit": "piece",
+      "countryOfOrigin": "Bangladesh",
+      "rating": 4.7,
+      "reviewCount": 45,
+      "isActive": true
+    },
+    {
+      "id": "prod_007",
+      "name": "Women's Lightweight Quilted Puffer Jacket",
+      "slug": "womens-lightweight-quilted-puffer-jacket",
+      "description": "Ladies Ultra Soft Thermal Puffer Jacket with Hood and Zip Closure",
+      "category": ["cat_women"],
+      "subcategory": "sub_jackets",
+      "type": "Jacket",
+      "brand": "No Brand",
+      "sku": "JAC-WM-006",
+      "thumbnail": "https://i.ibb.co.com/yB0VKkhc/Women-s-Winter-Quilted-Jackets-Long-Sleeve-Black.jpg",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#2b2a28",
+          "image": "https://i.ibb.co.com/yB0VKkhc/Women-s-Winter-Quilted-Jackets-Long-Sleeve-Black.jpg"
+        },
+        {
+          "name": "Apricot",
+          "hex": "#ccb39d",
+          "image": "https://i.ibb.co.com/LXFWcT91/Women-s-Winter-Quilted-Jackets-Long-Sleeve-Apricot.jpg"
+        },
+        {
+          "name": "Green",
+          "hex": "#394b3f",
+          "image": "https://i.ibb.co.com/8kmBbfv/Women-s-Winter-Quilted-Jackets-Long-Sleeve-Green.jpg"
+        },
+        {
+          "name": "Smoke Gray",
+          "hex": "#b99c92",
+          "image": "https://i.ibb.co.com/0jfHDTZg/Women-s-Winter-Quilted-Jackets-Long-Sleeve-Smoke-Gray.jpg"
+        },
+        {
+          "name": "Beau Blue",
+          "hex": "#7d8dac",
+          "image": "https://i.ibb.co.com/h1KHH37p/Women-s-Winter-Quilted-Jackets-Long-Sleeve-Beau-Blue.jpg"
+        },
+        {
+          "name": "Red Dahlia",
+          "hex": "#b2292e",
+          "image": "https://i.ibb.co.com/SDP0x8qn/Women-s-Winter-Quilted-Jackets-Long-Sleeve-Red.jpg"
+        }
+      ],
+      "sizes": ["S", "M", "L", "XL"],
+      "pricing": [
+        { "minQuantity": 5, "maxQuantity": 10, "unitPrice": 1350 },
+        { "minQuantity": 11, "maxQuantity": 30, "unitPrice": 1250 },
+        { "minQuantity": 31, "maxQuantity": null, "unitPrice": 1150 }
+      ],
+      "variants": [
+        {
+          "sku": "JAC-WM-006-BLK-S",
+          "size": "S",
+          "color": "Black",
+          "stock": 15
+        },
+        {
+          "sku": "JAC-WM-006-APR-S",
+          "size": "S",
+          "color": "Apricot",
+          "stock": 15
+        },
+        {
+          "sku": "JAC-WM-006-GRN-S",
+          "size": "S",
+          "color": "Green",
+          "stock": 15
+        },
+        {
+          "sku": "JAC-WM-006-SGY-S",
+          "size": "S",
+          "color": "Smoke Gray",
+          "stock": 15
+        },
+        {
+          "sku": "JAC-WM-006-BBL-S",
+          "size": "S",
+          "color": "Beau Blue",
+          "stock": 15
+        },
+        {
+          "sku": "JAC-WM-006-RDA-S",
+          "size": "S",
+          "color": "Red Dahlia",
+          "stock": 15
+        },
+        {
+          "sku": "JAC-WM-006-BLK-M",
+          "size": "M",
+          "color": "Black",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-WM-006-APR-M",
+          "size": "M",
+          "color": "Apricot",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-WM-006-GRN-M",
+          "size": "M",
+          "color": "Green",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-WM-006-SGY-M",
+          "size": "M",
+          "color": "Smoke Gray",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-WM-006-BBL-M",
+          "size": "M",
+          "color": "Beau Blue",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-WM-006-RDA-M",
+          "size": "M",
+          "color": "Red Dahlia",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-WM-006-BLK-L",
+          "size": "L",
+          "color": "Black",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-WM-006-APR-L",
+          "size": "L",
+          "color": "Apricot",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-WM-006-GRN-L",
+          "size": "L",
+          "color": "Green",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-WM-006-SGY-L",
+          "size": "L",
+          "color": "Smoke Gray",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-WM-006-BBL-L",
+          "size": "L",
+          "color": "Beau Blue",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-WM-006-RDA-L",
+          "size": "L",
+          "color": "Red Dahlia",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-WM-006-BLK-XL",
+          "size": "XL",
+          "color": "Black",
+          "stock": 10
+        },
+        {
+          "sku": "JAC-WM-006-APR-XL",
+          "size": "XL",
+          "color": "Apricot",
+          "stock": 10
+        },
+        {
+          "sku": "JAC-WM-006-GRN-XL",
+          "size": "XL",
+          "color": "Green",
+          "stock": 10
+        },
+        {
+          "sku": "JAC-WM-006-SGY-XL",
+          "size": "XL",
+          "color": "Smoke Gray",
+          "stock": 10
+        },
+        {
+          "sku": "JAC-WM-006-BBL-XL",
+          "size": "XL",
+          "color": "Beau Blue",
+          "stock": 10
+        },
+        {
+          "sku": "JAC-WM-006-RDA-XL",
+          "size": "XL",
+          "color": "Red Dahlia",
+          "stock": 10
+        }
+      ],
+      "material": "00%Polyester+Lining:100%Polyester+Filling:100%Polyester",
+      "weight": 0.6,
+      "unit": "piece",
+      "countryOfOrigin": "Bangladesh",
+      "rating": 4.8,
+      "reviewCount": 62,
+      "isActive": true
+    },
+    {
+      "id": "prod_008",
+      "name": "Kids Hooded Fleece Inner Winter Coat",
+      "slug": "kids-hooded-fleece-inner-winter-coat",
+      "description": "Kids Warm Fleece-Lined Windproof Outerwear Jacket for Boys and Girls",
+      "category": ["cat_kids"],
+      "subcategory": "sub_jackets",
+      "type": "Jacket",
+      "brand": "No Brand",
+      "sku": "JAC-KD-007",
+      "thumbnail": "https://i.ibb.co.com/SDVqJj6F/kids-hooded-fleece-inner-winter-coat-blue.webp",
+
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#3865ac",
+          "image": "https://i.ibb.co.com/SDVqJj6F/kids-hooded-fleece-inner-winter-coat-blue.webp"
+        },
+        {
+          "name": "Orange",
+          "hex": "#ef5c37",
+          "image": "https://i.ibb.co.com/zh3g0HvV/kids-hooded-fleece-inner-winter-coat-orange.webp"
+        },
+        {
+          "name": "Yellow",
+          "hex": "#f79f47",
+          "image": "https://i.ibb.co.com/LzycMpgT/kids-hooded-fleece-inner-winter-coat-yellow.webp"
+        }
+      ],
+      "sizes": ["S (2-4Y)", "M (5-7Y)", "L (8-10Y)", "XL (11-13Y)"],
+      "pricing": [
+        { "minQuantity": 5, "maxQuantity": 15, "unitPrice": 650 },
+        { "minQuantity": 16, "maxQuantity": 40, "unitPrice": 580 },
+        { "minQuantity": 41, "maxQuantity": null, "unitPrice": 520 }
+      ],
+      "variants": [
+        {
+          "sku": "JAC-KD-007-BLU-S",
+          "size": "S (2-4Y)",
+          "color": "Blue",
+          "stock": 15
+        },
+        {
+          "sku": "JAC-KD-007-ORG-S",
+          "size": "S (2-4Y)",
+          "color": "Orange",
+          "stock": 15
+        },
+        {
+          "sku": "JAC-KD-007-YEL-S",
+          "size": "S (2-4Y)",
+          "color": "Yellow",
+          "stock": 12
+        },
+        {
+          "sku": "JAC-KD-007-BLU-M",
+          "size": "M (5-7Y)",
+          "color": "Blue",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-KD-007-ORG-M",
+          "size": "M (5-7Y)",
+          "color": "Orange",
+          "stock": 20
+        },
+        {
+          "sku": "JAC-KD-007-YEL-M",
+          "size": "M (5-7Y)",
+          "color": "Yellow",
+          "stock": 15
+        },
+        {
+          "sku": "JAC-KD-007-BLU-L",
+          "size": "L (8-10Y)",
+          "color": "Blue",
+          "stock": 18
+        },
+        {
+          "sku": "JAC-KD-007-ORG-L",
+          "size": "L (8-10Y)",
+          "color": "Orange",
+          "stock": 18
+        },
+        {
+          "sku": "JAC-KD-007-YEL-L",
+          "size": "L (8-10Y)",
+          "color": "Yellow",
+          "stock": 14
+        },
+        {
+          "sku": "JAC-KD-007-BLU-XL",
+          "size": "XL (11-13Y)",
+          "color": "Blue",
+          "stock": 10
+        },
+        {
+          "sku": "JAC-KD-007-ORG-XL",
+          "size": "XL (11-13Y)",
+          "color": "Orange",
+          "stock": 10
+        },
+        {
+          "sku": "JAC-KD-007-YEL-XL",
+          "size": "XL (11-13Y)",
+          "color": "Yellow",
+          "stock": 8
+        }
+      ],
+      "material": "Polyester Shell, Micro-Fleece Inner",
+      "weight": 0.4,
+      "unit": "piece",
+      "countryOfOrigin": "Bangladesh",
+      "rating": 4.6,
+      "reviewCount": 38,
+      "isActive": true
+    },
+    {
+      "id": "prod_009",
+      "name": "Men's Classic V-Neck Knitted Wool Sweater",
+      "slug": "mens-classic-v-neck-knitted-wool-sweater",
+      "description": "Men's Soft Woolen V-Neck Pullover Sweater Formal & Casual Wear",
+      "category": ["cat_men"],
+      "subcategory": "sub_sweaters",
+      "type": "Sweater",
+      "brand": "No Brand",
+      "sku": "SWT-MN-009",
+      "thumbnail": "https://i.ibb.co.com/7ds7FLyd/mens-classic-v-neck-knitted-wool-sweater-beige.webp",
+      "colors": [
+        {
+          "name": "Beige",
+          "hex": "#efe5d8",
+          "image": "https://i.ibb.co.com/7ds7FLyd/mens-classic-v-neck-knitted-wool-sweater-beige.webp"
+        },
+        {
+          "name": "Sky Blue",
+          "hex": "#c7deed",
+          "image": "https://i.ibb.co.com/G3PxjszZ/mens-classic-v-neck-knitted-wool-sweater-sky-blue.webp"
+        },
+        {
+          "name": "Navy Blue",
+          "hex": "#152030",
+          "image": "https://i.ibb.co.com/JRMVwtym/mens-classic-v-neck-knitted-wool-sweater-navy-blue.webp"
+        },
+        {
+          "name": "Burgundy",
+          "hex": "#5f222d",
+          "image": "https://i.ibb.co.com/jPqH8nKx/mens-classic-v-neck-knitted-wool-sweater-burgundy.webp"
+        }
+      ],
+      "sizes": ["M", "L", "XL", "XXL"],
+      "pricing": [
+        { "minQuantity": 5, "maxQuantity": 20, "unitPrice": 650 },
+        { "minQuantity": 21, "maxQuantity": 50, "unitPrice": 600 },
+        { "minQuantity": 51, "maxQuantity": null, "unitPrice": 550 }
+      ],
+      "variants": [
+        {
+          "sku": "SWT-MN-009-BEI-M",
+          "size": "M",
+          "color": "Beige",
+          "stock": 20
+        },
+        {
+          "sku": "SWT-MN-009-SBL-M",
+          "size": "M",
+          "color": "Sky Blue",
+          "stock": 20
+        },
+        {
+          "sku": "SWT-MN-009-NVY-M",
+          "size": "M",
+          "color": "Navy Blue",
+          "stock": 20
+        },
+        {
+          "sku": "SWT-MN-009-BUR-M",
+          "size": "M",
+          "color": "Burgundy",
+          "stock": 20
+        },
+        {
+          "sku": "SWT-MN-009-BEI-L",
+          "size": "L",
+          "color": "Beige",
+          "stock": 25
+        },
+        {
+          "sku": "SWT-MN-009-SBL-L",
+          "size": "L",
+          "color": "Sky Blue",
+          "stock": 25
+        },
+        {
+          "sku": "SWT-MN-009-NVY-L",
+          "size": "L",
+          "color": "Navy Blue",
+          "stock": 25
+        },
+        {
+          "sku": "SWT-MN-009-BUR-L",
+          "size": "L",
+          "color": "Burgundy",
+          "stock": 25
+        },
+        {
+          "sku": "SWT-MN-009-BEI-XL",
+          "size": "XL",
+          "color": "Beige",
+          "stock": 15
+        },
+        {
+          "sku": "SWT-MN-009-SBL-XL",
+          "size": "XL",
+          "color": "Sky Blue",
+          "stock": 15
+        },
+        {
+          "sku": "SWT-MN-009-NVY-XL",
+          "size": "XL",
+          "color": "Navy Blue",
+          "stock": 15
+        },
+        {
+          "sku": "SWT-MN-009-BUR-XL",
+          "size": "XL",
+          "color": "Burgundy",
+          "stock": 15
+        },
+        {
+          "sku": "SWT-MN-009-BEI-XXL",
+          "size": "XXL",
+          "color": "Beige",
+          "stock": 10
+        },
+        {
+          "sku": "SWT-MN-009-SBL-XXL",
+          "size": "XXL",
+          "color": "Sky Blue",
+          "stock": 10
+        },
+        {
+          "sku": "SWT-MN-009-NVY-XXL",
+          "size": "XXL",
+          "color": "Navy Blue",
+          "stock": 10
+        },
+        {
+          "sku": "SWT-MN-009-BUR-XXL",
+          "size": "XXL",
+          "color": "Burgundy",
+          "stock": 10
+        }
+      ],
+      "material": "60% Acrylic, 40% Wool",
+      "weight": 0.45,
+      "unit": "piece",
+      "countryOfOrigin": "Bangladesh",
+      "rating": 4.5,
+      "reviewCount": 29,
+      "isActive": true
+    },
+    {
+      "id": "prod_010",
+      "name": "Women's Oversized Cable Knit Sweater",
+      "slug": "womens-oversized-cable-knit-sweater",
+      "description": "Ladies Loose Fit Chunky Cable Knit Sweater Soft Thermal Pullover Top",
+      "category": ["cat_women"],
+      "subcategory": "sub_sweaters",
+      "type": "Sweater",
+      "brand": "No Brand",
+      "sku": "SWT-WM-010",
+      "thumbnail": "https://i.ibb.co.com/Z1S0hMbR/womens-oversized-cable-knit-sweater-camel.jpg",
+      "colors": [
+        {
+          "name": "Camel",
+          "hex": "#c7a69d",
+          "image": "https://i.ibb.co.com/Z1S0hMbR/womens-oversized-cable-knit-sweater-camel.jpg"
+        },
+        {
+          "name": "Grey",
+          "hex": "#b4b0be",
+          "image": "https://i.ibb.co.com/Rkd4tLP5/womens-oversized-cable-knit-sweater-grey.jpg"
+        },
+        {
+          "name": "Red",
+          "hex": "#3b0208",
+          "image": "https://i.ibb.co.com/8LHvyXRx/womens-oversized-cable-knit-sweater-Burgundy.jpg"
+        },
+        {
+          "name": "Off White",
+          "hex": "#efe2db",
+          "image": "https://i.ibb.co.com/Gf4dHCBD/womens-oversized-cable-knit-sweater-white.jpg"
+        }
+      ],
+      "sizes": ["S", "M", "L", "XL"],
+      "pricing": [
+        { "minQuantity": 5, "maxQuantity": 15, "unitPrice": 750 },
+        { "minQuantity": 16, "maxQuantity": 40, "unitPrice": 700 },
+        { "minQuantity": 41, "maxQuantity": null, "unitPrice": 650 }
+      ],
+      "variants": [
+        {
+          "sku": "SWT-WM-010-CAM-S",
+          "size": "S",
+          "color": "Camel",
+          "stock": 15
+        },
+        {
+          "sku": "SWT-WM-010-GRY-S",
+          "size": "S",
+          "color": "Grey",
+          "stock": 15
+        },
+        { "sku": "SWT-WM-010-RED-S", "size": "S", "color": "Red", "stock": 12 },
+        {
+          "sku": "SWT-WM-010-WHI-S",
+          "size": "S",
+          "color": "Off White",
+          "stock": 15
+        },
+        {
+          "sku": "SWT-WM-010-CAM-M",
+          "size": "M",
+          "color": "Camel",
+          "stock": 20
+        },
+        {
+          "sku": "SWT-WM-010-GRY-M",
+          "size": "M",
+          "color": "Grey",
+          "stock": 20
+        },
+        { "sku": "SWT-WM-010-RED-M", "size": "M", "color": "Red", "stock": 18 },
+        {
+          "sku": "SWT-WM-010-WHI-M",
+          "size": "M",
+          "color": "Off White",
+          "stock": 20
+        },
+        {
+          "sku": "SWT-WM-010-CAM-L",
+          "size": "L",
+          "color": "Camel",
+          "stock": 20
+        },
+        {
+          "sku": "SWT-WM-010-GRY-L",
+          "size": "L",
+          "color": "Grey",
+          "stock": 20
+        },
+        { "sku": "SWT-WM-010-RED-L", "size": "L", "color": "Red", "stock": 15 },
+        {
+          "sku": "SWT-WM-010-WHI-L",
+          "size": "L",
+          "color": "Off White",
+          "stock": 20
+        },
+        {
+          "sku": "SWT-WM-010-CAM-XL",
+          "size": "XL",
+          "color": "Camel",
+          "stock": 10
+        },
+        {
+          "sku": "SWT-WM-010-GRY-XL",
+          "size": "XL",
+          "color": "Grey",
+          "stock": 10
+        },
+        {
+          "sku": "SWT-WM-010-RED-XL",
+          "size": "XL",
+          "color": "Red",
+          "stock": 8
+        },
+        {
+          "sku": "SWT-WM-010-WHI-XL",
+          "size": "XL",
+          "color": "Off White",
+          "stock": 10
+        }
+      ],
+      "material": "100% Soft Acrylic Yarn",
+      "weight": 0.5,
+      "unit": "piece",
+      "countryOfOrigin": "Bangladesh",
+      "rating": 4.9,
+      "reviewCount": 88,
+      "isActive": true
+    },
+    {
+      "id": "prod_011",
+      "name": "Kids Cute Patterned Woolen Jumper Sweater",
+      "slug": "kids-cute-patterned-woolen-jumper-sweater",
+      "description": "Children Soft Warm Knitted Sweater Cute Winter Top for Boys and Girls",
+      "category": ["cat_kids"],
+      "subcategory": "sub_sweaters",
+      "type": "Sweater",
+      "brand": "No Brand",
+      "sku": "SWT-KD-011",
+      "thumbnail": "https://i.ibb.co.com/rRss3NC4/kids-cute-patterned-woolen-jumper-sweater-blue.jpg",
+      "colors": [
+        {
+          "name": "Grey",
+          "hex": "#554d5c",
+          "image": "https://i.ibb.co.com/jkqjcGNt/kids-cute-patterned-woolen-jumper-sweater-grey.jpg"
+        },
+        {
+          "name": "Nevy Blue",
+          "hex": "#1b1c30",
+          "image": "https://i.ibb.co.com/rRss3NC4/kids-cute-patterned-woolen-jumper-sweater-blue.jpg"
+        },
+        {
+          "name": "Red",
+          "hex": "#970708",
+          "image": "https://i.ibb.co.com/SXfG3xmb/kids-cute-patterned-woolen-jumper-sweater-red.webp"
+        }
+      ],
+      "sizes": ["S (2-4Y)", "M (5-7Y)", "L (8-10Y)", "XL (11-13Y)"],
+      "pricing": [
+        { "minQuantity": 5, "maxQuantity": 20, "unitPrice": 450 },
+        { "minQuantity": 21, "maxQuantity": 50, "unitPrice": 400 },
+        { "minQuantity": 51, "maxQuantity": null, "unitPrice": 360 }
+      ],
+      "variants": [
+        {
+          "sku": "SWT-KD-011-GRY-S",
+          "size": "S (2-4Y)",
+          "color": "Grey",
+          "stock": 15
+        },
+        {
+          "sku": "SWT-KD-011-NVY-S",
+          "size": "S (2-4Y)",
+          "color": "Nevy Blue",
+          "stock": 15
+        },
+        {
+          "sku": "SWT-KD-011-RED-S",
+          "size": "S (2-4Y)",
+          "color": "Red",
+          "stock": 12
+        },
+        {
+          "sku": "SWT-KD-011-GRY-M",
+          "size": "M (5-7Y)",
+          "color": "Grey",
+          "stock": 20
+        },
+        {
+          "sku": "SWT-KD-011-NVY-M",
+          "size": "M (5-7Y)",
+          "color": "Nevy Blue",
+          "stock": 20
+        },
+        {
+          "sku": "SWT-KD-011-RED-M",
+          "size": "M (5-7Y)",
+          "color": "Red",
+          "stock": 15
+        },
+        {
+          "sku": "SWT-KD-011-GRY-L",
+          "size": "L (8-10Y)",
+          "color": "Grey",
+          "stock": 18
+        },
+        {
+          "sku": "SWT-KD-011-NVY-L",
+          "size": "L (8-10Y)",
+          "color": "Nevy Blue",
+          "stock": 18
+        },
+        {
+          "sku": "SWT-KD-011-RED-L",
+          "size": "L (8-10Y)",
+          "color": "Red",
+          "stock": 14
+        },
+        {
+          "sku": "SWT-KD-011-GRY-XL",
+          "size": "XL (11-13Y)",
+          "color": "Grey",
+          "stock": 10
+        },
+        {
+          "sku": "SWT-KD-011-NVY-XL",
+          "size": "XL (11-13Y)",
+          "color": "Nevy Blue",
+          "stock": 10
+        },
+        {
+          "sku": "SWT-KD-011-RED-XL",
+          "size": "XL (11-13Y)",
+          "color": "Red",
+          "stock": 8
+        }
+      ],
+      "material": "100% Baby-Safe Soft Wool",
+      "weight": 0.3,
+      "unit": "piece",
+      "countryOfOrigin": "Bangladesh",
+      "rating": 4.8,
+      "reviewCount": 42,
+      "isActive": true
+    },
+    {
+      "id": "prod_012",
+      "name": "Women's Fleece Cropped Sweatshirt",
+      "slug": "womens-fleece-cropped-sweatshirt",
+      "description": "Ladies Stylish Cropped Crewneck Sweatshirt Soft Brushed Fleece Warm Wear",
+      "category": ["cat_women"],
+      "subcategory": "sub_sweatshirts",
+      "type": "Sweatshirt",
+      "brand": "No Brand",
+      "sku": "SWT-WM-014",
+      "thumbnail": "https://i.ibb.co.com/SDjWwcdt/Women-s-Fleece-Cropped-Sweatshirt-blue.webp",
+      "colors": [
+        {
+          "name": "Charcoal",
+          "hex": "#343e46",
+          "image": "https://i.ibb.co.com/zThB8Nr9/Women-s-Fleece-Cropped-Sweatshirt-burgundy.webp"
+        },
+        {
+          "name": "Grey",
+          "hex": "#afadac",
+          "image": "https://i.ibb.co.com/TBHxWgZZ/Women-s-Fleece-Cropped-Sweatshirt-Grey.webp"
+        },
+        {
+          "name": "Burgundy",
+          "hex": "#731726",
+          "image": "https://i.ibb.co.com/B5Zv8tC0/Women-s-Fleece-Cropped-Sweatshirt-charchol.webp"
+        },
+        {
+          "name": "Blue",
+          "hex": "#151f3c",
+          "image": "https://i.ibb.co.com/SDjWwcdt/Women-s-Fleece-Cropped-Sweatshirt-blue.webp"
+        }
+      ],
+      "sizes": ["S", "M", "L", "XL"],
+      "pricing": [
+        { "minQuantity": 5, "maxQuantity": 15, "unitPrice": 500 },
+        { "minQuantity": 16, "maxQuantity": 40, "unitPrice": 460 },
+        { "minQuantity": 41, "maxQuantity": null, "unitPrice": 420 }
+      ],
+      "variants": [
+        {
+          "sku": "SWT-WM-014-CHA-S",
+          "size": "S",
+          "color": "Charcoal",
+          "stock": 15
+        },
+        {
+          "sku": "SWT-WM-014-GRY-S",
+          "size": "S",
+          "color": "Grey",
+          "stock": 15
+        },
+        {
+          "sku": "SWT-WM-014-BUR-S",
+          "size": "S",
+          "color": "Burgundy",
+          "stock": 12
+        },
+        {
+          "sku": "SWT-WM-014-BLU-S",
+          "size": "S",
+          "color": "Blue",
+          "stock": 12
+        },
+        {
+          "sku": "SWT-WM-014-CHA-M",
+          "size": "M",
+          "color": "Charcoal",
+          "stock": 20
+        },
+        {
+          "sku": "SWT-WM-014-GRY-M",
+          "size": "M",
+          "color": "Grey",
+          "stock": 20
+        },
+        {
+          "sku": "SWT-WM-014-BUR-M",
+          "size": "M",
+          "color": "Burgundy",
+          "stock": 18
+        },
+        {
+          "sku": "SWT-WM-014-BLU-M",
+          "size": "M",
+          "color": "Blue",
+          "stock": 18
+        },
+        {
+          "sku": "SWT-WM-014-CHA-L",
+          "size": "L",
+          "color": "Charcoal",
+          "stock": 18
+        },
+        {
+          "sku": "SWT-WM-014-GRY-L",
+          "size": "L",
+          "color": "Grey",
+          "stock": 18
+        },
+        {
+          "sku": "SWT-WM-014-BUR-L",
+          "size": "L",
+          "color": "Burgundy",
+          "stock": 15
+        },
+        {
+          "sku": "SWT-WM-014-BLU-L",
+          "size": "L",
+          "color": "Blue",
+          "stock": 15
+        },
+        {
+          "sku": "SWT-WM-014-CHA-XL",
+          "size": "XL",
+          "color": "Charcoal",
+          "stock": 10
+        },
+        {
+          "sku": "SWT-WM-014-GRY-XL",
+          "size": "XL",
+          "color": "Grey",
+          "stock": 10
+        },
+        {
+          "sku": "SWT-WM-014-BUR-XL",
+          "size": "XL",
+          "color": "Burgundy",
+          "stock": 8
+        },
+        {
+          "sku": "SWT-WM-014-BLU-XL",
+          "size": "XL",
+          "color": "Blue",
+          "stock": 8
+        }
+      ],
+      "material": "85% Cotton, 15% Polyester",
+      "weight": 0.4,
+      "unit": "piece",
+      "countryOfOrigin": "Bangladesh",
+      "rating": 4.5,
+      "reviewCount": 31,
+      "isActive": true
+    },
+    {
+      "id": "prod_013",
+      "name": "Men's Fleece Lined Knit Beanie Cap",
+      "slug": "mens-fleece-lined-knit-beanie-cap",
+      "description": "Men's Thermal Fleece Lined Warm Knitted Winter Cap",
+      "category": ["cat_men"],
+      "subcategory": "sub_caps",
+      "type": "Winter Cap",
+      "brand": "No Brand",
+      "sku": "CAP-MN-021",
+      "thumbnail": "https://i.ibb.co.com/0j9P77tR/mens-fleece-lined-knit-beanie-cap-charcoal.webp",
+
+      "colors": [
+        {
+          "name": "Charcoal",
+          "hex": "#212025",
+          "image": "https://i.ibb.co.com/0j9P77tR/mens-fleece-lined-knit-beanie-cap-charcoal.webp"
+        },
+        {
+          "name": "Navy Blue",
+          "hex": "#272f63",
+          "image": "https://i.ibb.co.com/CK48C1bJ/mens-fleece-lined-knit-beanie-cap-blue.webp"
+        },
+        {
+          "name": "Grey",
+          "hex": "#739cae",
+          "image": "https://i.ibb.co.com/RT7y6kVX/mens-fleece-lined-knit-beanie-cap-grey.webp"
+        },
+        {
+          "name": "Green",
+          "hex": "#272b23",
+          "image": "https://i.ibb.co.com/RGx88Pqb/mens-fleece-lined-knit-beanie-cap-Green.webp"
+        }
+      ],
+      "sizes": ["M", "L", "XL", "XXL"],
+      "pricing": [
+        { "minQuantity": 10, "maxQuantity": 30, "unitPrice": 180 },
+        { "minQuantity": 31, "maxQuantity": 100, "unitPrice": 150 },
+        { "minQuantity": 101, "maxQuantity": null, "unitPrice": 120 }
+      ],
+      "variants": [
+        {
+          "sku": "CAP-MN-021-CHA-M",
+          "size": "M",
+          "color": "Charcoal",
+          "stock": 30
+        },
+        {
+          "sku": "CAP-MN-021-NVY-M",
+          "size": "M",
+          "color": "Navy Blue",
+          "stock": 25
+        },
+        {
+          "sku": "CAP-MN-021-GRY-M",
+          "size": "M",
+          "color": "Grey",
+          "stock": 20
+        },
+        {
+          "sku": "CAP-MN-021-GRN-M",
+          "size": "M",
+          "color": "Green",
+          "stock": 20
+        },
+        {
+          "sku": "CAP-MN-021-CHA-L",
+          "size": "L",
+          "color": "Charcoal",
+          "stock": 30
+        },
+        {
+          "sku": "CAP-MN-021-NVY-L",
+          "size": "L",
+          "color": "Navy Blue",
+          "stock": 25
+        },
+        {
+          "sku": "CAP-MN-021-GRY-L",
+          "size": "L",
+          "color": "Grey",
+          "stock": 20
+        },
+        {
+          "sku": "CAP-MN-021-GRN-L",
+          "size": "L",
+          "color": "Green",
+          "stock": 20
+        },
+        {
+          "sku": "CAP-MN-021-CHA-XL",
+          "size": "XL",
+          "color": "Charcoal",
+          "stock": 25
+        },
+        {
+          "sku": "CAP-MN-021-NVY-XL",
+          "size": "XL",
+          "color": "Navy Blue",
+          "stock": 20
+        },
+        {
+          "sku": "CAP-MN-021-GRY-XL",
+          "size": "XL",
+          "color": "Grey",
+          "stock": 15
+        },
+        {
+          "sku": "CAP-MN-021-GRN-XL",
+          "size": "XL",
+          "color": "Green",
+          "stock": 15
+        },
+        {
+          "sku": "CAP-MN-021-CHA-XXL",
+          "size": "XXL",
+          "color": "Charcoal",
+          "stock": 15
+        },
+        {
+          "sku": "CAP-MN-021-NVY-XXL",
+          "size": "XXL",
+          "color": "Navy Blue",
+          "stock": 15
+        },
+        {
+          "sku": "CAP-MN-021-GRY-XXL",
+          "size": "XXL",
+          "color": "Grey",
+          "stock": 10
+        },
+        {
+          "sku": "CAP-MN-021-GRN-XXL",
+          "size": "XXL",
+          "color": "Green",
+          "stock": 10
+        }
+      ],
+      "material": "Acrylic Outer, Thermal Fleece Inner",
+      "weight": 0.12,
+      "unit": "piece",
+      "countryOfOrigin": "Bangladesh",
+      "rating": 4.8,
+      "reviewCount": 140,
+      "isActive": true
+    },
+    {
+      "id": "prod_014",
+      "name": "Cute Animal Ear Kids Winter Knit Cap",
+      "slug": "cute-animal-ear-kids-winter-knit-cap",
+      "description": "Children Soft Pom-Pom Beanie Cap Warm Ear Protection Winter Hat for Toddlers",
+      "category": ["cat_kids"],
+      "subcategory": "sub_caps",
+      "type": "Winter Cap",
+      "brand": "No Brand",
+      "sku": "CAP-KD-023",
+      "thumbnail": "https://i.ibb.co.com/4gDBTxGX/cute-animal-ear-kids-winter-knit-cap-pink.jpg",
+
+      "colors": [
+        {
+          "name": "Pink",
+          "hex": "#dcb8c7",
+          "image": "https://i.ibb.co.com/4gDBTxGX/cute-animal-ear-kids-winter-knit-cap-pink.jpg"
+        },
+        {
+          "name": "Brown",
+          "hex": "#8f684d",
+          "image": "https://i.ibb.co.com/WWC69nxZ/cute-animal-ear-kids-winter-knit-cap-brown.jpg"
+        },
+        {
+          "name": "Cream",
+          "hex": "#e5d9c9",
+          "image": "https://i.ibb.co.com/k60LW3Xf/cute-animal-ear-kids-winter-knit-cap-cream.jpg"
+        },
+        {
+          "name": "Blue",
+          "hex": "#67a7d0",
+          "image": "https://i.ibb.co.com/vrSg08F/cute-animal-ear-kids-winter-knit-cap-blue.jpg"
+        }
+      ],
+      "sizes": ["S (2-4Y)", "M (5-7Y)", "L (8-10Y)", "XL (11-13Y)"],
+      "pricing": [
+        { "minQuantity": 10, "maxQuantity": 30, "unitPrice": 150 },
+        { "minQuantity": 31, "maxQuantity": 100, "unitPrice": 120 },
+        { "minQuantity": 101, "maxQuantity": null, "unitPrice": 100 }
+      ],
+      "variants": [
+        {
+          "sku": "CAP-KD-023-PNK-S",
+          "size": "S (2-4Y)",
+          "color": "Pink",
+          "stock": 15
+        },
+        {
+          "sku": "CAP-KD-023-BRN-S",
+          "size": "S (2-4Y)",
+          "color": "Brown",
+          "stock": 15
+        },
+        {
+          "sku": "CAP-KD-023-CRM-S",
+          "size": "S (2-4Y)",
+          "color": "Cream",
+          "stock": 15
+        },
+        {
+          "sku": "CAP-KD-023-BLU-S",
+          "size": "S (2-4Y)",
+          "color": "Blue",
+          "stock": 12
+        },
+        {
+          "sku": "CAP-KD-023-PNK-M",
+          "size": "M (5-7Y)",
+          "color": "Pink",
+          "stock": 20
+        },
+        {
+          "sku": "CAP-KD-023-BRN-M",
+          "size": "M (5-7Y)",
+          "color": "Brown",
+          "stock": 20
+        },
+        {
+          "sku": "CAP-KD-023-CRM-M",
+          "size": "M (5-7Y)",
+          "color": "Cream",
+          "stock": 20
+        },
+        {
+          "sku": "CAP-KD-023-BLU-M",
+          "size": "M (5-7Y)",
+          "color": "Blue",
+          "stock": 15
+        },
+        {
+          "sku": "CAP-KD-023-PNK-L",
+          "size": "L (8-10Y)",
+          "color": "Pink",
+          "stock": 18
+        },
+        {
+          "sku": "CAP-KD-023-BRN-L",
+          "size": "L (8-10Y)",
+          "color": "Brown",
+          "stock": 18
+        },
+        {
+          "sku": "CAP-KD-023-CRM-L",
+          "size": "L (8-10Y)",
+          "color": "Cream",
+          "stock": 18
+        },
+        {
+          "sku": "CAP-KD-023-BLU-L",
+          "size": "L (8-10Y)",
+          "color": "Blue",
+          "stock": 14
+        },
+        {
+          "sku": "CAP-KD-023-PNK-XL",
+          "size": "XL (11-13Y)",
+          "color": "Pink",
+          "stock": 10
+        },
+        {
+          "sku": "CAP-KD-023-BRN-XL",
+          "size": "XL (11-13Y)",
+          "color": "Brown",
+          "stock": 10
+        },
+        {
+          "sku": "CAP-KD-023-CRM-XL",
+          "size": "XL (11-13Y)",
+          "color": "Cream",
+          "stock": 10
+        },
+        {
+          "sku": "CAP-KD-023-BLU-XL",
+          "size": "XL (11-13Y)",
+          "color": "Blue",
+          "stock": 8
+        }
+      ],
+      "material": "Soft Baby Woolen Knit",
+      "weight": 0.1,
+      "unit": "piece",
+      "countryOfOrigin": "Bangladesh",
+      "rating": 4.8,
+      "reviewCount": 55,
+      "isActive": true
+    }
+  ]
+}
