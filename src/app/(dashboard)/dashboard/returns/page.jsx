@@ -565,7 +565,7 @@ export default function ReturnsPage() {
 
           {/* Desktop table */}
           <div className="hidden overflow-x-auto lg:block">
-            <table className="w-full min-w-[1100px]">
+            <table className="w-full min-w-275">
               <thead>
                 <tr className="border-b border-bd bg-bg2/60 text-left text-xs font-semibold uppercase tracking-wide text-mut">
                   <th className="px-6 py-4">Return</th>
@@ -610,7 +610,7 @@ export default function ReturnsPage() {
                     </td>
 
                     <td className="px-6 py-4">
-                      <p className="max-w-[220px] text-sm font-semibold">
+                      <p className="max-w-55 text-sm font-semibold">
                         {item.product}
                       </p>
                       <p className="mt-1 text-xs text-mut">
@@ -761,7 +761,7 @@ export default function ReturnsPage() {
 
               <p className="mx-auto mt-2 max-w-md text-sm text-mut">
                 Try changing your search or filters to find the return
-                you're looking for.
+                you&apos;re looking for.
               </p>
 
               <button
@@ -1083,7 +1083,7 @@ function FilterSelect({ value, onChange, options }) {
       <select
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="h-11 min-w-[145px] appearance-none rounded-xl border border-bd bg-bg2 pl-3.5 pr-9 text-sm font-medium outline-none transition focus:border-ac"
+        className="h-11 min-w-36.25 appearance-none rounded-xl border border-bd bg-bg2 pl-3.5 pr-9 text-sm font-medium outline-none transition focus:border-ac"
       >
         {options.map((option) => (
           <option key={option}>{option}</option>

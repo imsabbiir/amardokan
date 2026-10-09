@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/preserve-manual-memoization */
 "use client";
 
 import Link from "next/link";
@@ -739,7 +740,7 @@ export default function EarningsPage() {
           {/* Desktop */}
           <div className="hidden overflow-x-auto lg:block">
             {filteredTransactions.length > 0 ? (
-              <table className="w-full min-w-[900px]">
+              <table className="w-full min-w-225">
                 <thead>
                   <tr className="border-b border-bd bg-bg2/50 text-left">
                     <th className="px-5 py-3 text-xs font-semibold text-mut">

@@ -1,8 +1,7 @@
+// app/admin/(panel)/layout.jsx
 
-export default async function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body className="flex flex-col min-h-screen">{children}</body>
-    </html>
-  );
+import AdminShell from "@/components/Admin/AdminShell";
+
+export default function AdminPanelLayout({ children }) {
+  return <AdminShell>{children}</AdminShell>;
 }

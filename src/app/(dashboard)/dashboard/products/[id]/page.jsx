@@ -344,7 +344,7 @@ export default function ProductDetailsPage() {
 
   return (
     <div className="min-h-screen bg-bg">
-      <div className="mx-auto max-w-[1500px] px-4 py-6 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-375 px-4 py-6 sm:px-6 lg:px-8">
 
         {/* Breadcrumb */}
         <div className="mb-5 flex flex-wrap items-center gap-2 text-sm text-mut">
@@ -407,7 +407,7 @@ export default function ProductDetailsPage() {
 
             <div className="order-1 md:order-2">
               <div className="relative">
-                <ProductPlaceholder className="aspect-square min-h-[360px] w-full sm:min-h-[460px]" />
+                <ProductPlaceholder className="aspect-square min-h-90 w-full sm:min-h-115" />
 
                 <button
                   type="button"

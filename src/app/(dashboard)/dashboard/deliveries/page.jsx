@@ -767,7 +767,7 @@ export default function DeliveriesPage() {
 
           {/* Desktop table */}
           <div className="hidden overflow-x-auto lg:block">
-            <table className="w-full min-w-[1100px]">
+            <table className="w-full min-w-275">
               <thead>
                 <tr className="border-b border-bd bg-bg2/50 text-left">
                   <th className="px-5 py-3 text-xs font-semibold text-mut">

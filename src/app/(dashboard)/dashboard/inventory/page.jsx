@@ -280,7 +280,7 @@ function InventoryBar({ available, reorderPoint, status }) {
       : Math.min((available / Math.max(reorderPoint * 3, 1)) * 100, 100);
 
   return (
-    <div className="min-w-[120px]">
+    <div className="min-w-30">
       <div className="mb-1.5 flex items-center justify-between text-xs">
         <span className="font-medium">{available} available</span>
         <span className="text-mut">min {reorderPoint}</span>
@@ -775,7 +775,7 @@ export default function InventoryPage() {
           {/* Desktop Table */}
           <div className="hidden overflow-x-auto lg:block">
             {filteredInventory.length > 0 ? (
-              <table className="w-full min-w-[950px]">
+              <table className="w-full min-w-237.5">
                 <thead>
                   <tr className="border-b border-bd bg-bg2/50 text-left">
                     <th className="px-5 py-3 text-xs font-semibold text-mut">

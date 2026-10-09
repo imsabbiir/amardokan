@@ -278,7 +278,7 @@ export default function StoreProductDetailsPage() {
 
   return (
     <div className="min-h-screen bg-bg">
-      <div className="mx-auto max-w-[1500px] px-4 py-6 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-375 px-4 py-6 sm:px-6 lg:px-8">
 
         {/* Breadcrumb */}
         <div className="mb-5 flex flex-wrap items-center gap-2 text-sm text-mut">
@@ -625,7 +625,7 @@ export default function StoreProductDetailsPage() {
                   </div>
 
                   <div className="overflow-x-auto">
-                    <table className="w-full min-w-[600px]">
+                    <table className="w-full min-w-150">
                       <thead>
                         <tr className="border-b border-bd text-left">
                           <th className="pb-3 text-xs font-semibold text-mut">
@@ -950,7 +950,7 @@ export default function StoreProductDetailsPage() {
             </section>
 
             {/* Danger */}
-            <section className="rounded-2xl border border-red-500/20 bg-red-500/[0.03] p-5">
+            <section className="rounded-2xl border border-red-500/20 bg-red-500/3 p-5">
               <div className="flex items-center gap-2">
                 <Trash2 className="h-4 w-4 text-red-500" />
 
@@ -1020,7 +1020,7 @@ export default function StoreProductDetailsPage() {
 
       {/* Delete modal */}
       {showDelete && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/50 p-4 backdrop-blur-sm">
+        <div className="fixed inset-0 z-100 flex items-center justify-center bg-black/50 p-4 backdrop-blur-sm">
           <div className="w-full max-w-md rounded-2xl border border-bd bg-bg p-6 shadow-2xl">
             <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-red-500/10">
               <Trash2 className="h-5 w-5 text-red-500" />
